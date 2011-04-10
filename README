@@ -1,0 +1,11 @@
+If you want to install this widget in your awesome desktop you may need to know something about this Window Manager and something of LUA programming.
+In Debian distros, you have to install the LUA socket package by doing this:
+
+$ sudo apt-get install liblua50-socket2
+
+After that, modify your rc.lua adding the content of wg_rss.lua inside. Then append the widget to your favorite wibox and modify the url variable as you prefer.
+
+Restart awesome, and enjoy ;)
+
+--
+gbort
